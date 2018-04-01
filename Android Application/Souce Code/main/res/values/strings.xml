@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dash_board</string>
+    <string name="Menu_Music_Player">Music Player</string>
+    <string name="Menu_Radio_Setup">Radio Setup</string>
+    <string name="Menu_Play_Movie">Play Movie</string>
+    <string name="Menu_Display_Photos">Display Photos</string>
+    <string name="Menu_item_5">Item 5</string>
+    <string name="Menu_item_6">Item 6</string>
+    <string name="Server_IP_ADDRESS">Server IP Address</string>
+    <string name="Port_Number">Port Number</string>
+    <string name="Connect_Button">Connect</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    tools:context="com.mickey.himan.dash_board.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LL_ServerDetails"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/Server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Server_IP_ADDRESS"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/PortNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:hint="Port_Number"
+
+            android:inputType="number"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/Button_Connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/radio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Radio Setup"/>
+
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/music"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Music Player"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp" >
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:src="@drawable/galleryicon"
+            android:layout_marginLeft="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Display Photos"/>
+
+        <ImageButton
+            android:id="@+id/button4"
+            android:src="@drawable/movie"
+            android:layout_marginLeft="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Play Movie"/>
+    </LinearLayout>
+
+</LinearLayout>
